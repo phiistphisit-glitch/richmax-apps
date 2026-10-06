@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RICHMAX Apps</title>
+<style>
+  :root { --red:#c8102e; --ink:#1d1d1f; --mute:#6e6e73; --bg:#f5f5f7; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system, BlinkMacSystemFont, "Sukhumvit Set", "Noto Sans Thai", "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:40px 20px 16px; text-align:center; }
+  header h1 { margin:0; font-size:30px; letter-spacing:.5px; }
+  header h1 span { color:var(--red); }
+  header p { margin:8px 0 0; color:var(--mute); font-size:15px; }
+  main { max-width:880px; margin:0 auto; padding:16px 20px 48px; display:grid; gap:18px; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); }
+  .card { background:#fff; border-radius:18px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,.06); display:flex; flex-direction:column; gap:10px; }
+  .icon { font-size:34px; }
+  .card h2 { margin:0; font-size:21px; }
+  .card p { margin:0; color:var(--mute); font-size:15px; line-height:1.55; flex:1; }
+  .tag { display:inline-block; font-size:12px; color:#137333; background:#e6f4ea; border-radius:99px; padding:3px 10px; align-self:flex-start; }
+  .btn { display:block; text-align:center; text-decoration:none; background:var(--red); color:#fff; font-weight:600; font-size:17px; padding:14px; border-radius:12px; margin-top:6px; }
+  .btn:active { opacity:.85; }
+  footer { text-align:center; color:var(--mute); font-size:13px; padding:0 20px 32px; }
+</style>
+</head>
+<body>
+<header>
+  <h1><span>RICHMAX</span> Apps</h1>
+  <p>แอปที่ใช้งานได้ตอนนี้ กดปุ่มเพื่อเปิดลองได้เลย</p>
+</header>
+<main>
+  <section class="card">
+    <div class="icon">🧮</div>
+    <h2>Gravure Studio</h2>
+    <p>ตีราคาซองตั้งพิมพ์กราเวียร์ ใส่ขนาด ฟิล์ม จำนวนสี และล็อต แล้วดูราคาต่อซองกับเลย์เอาท์ทันที</p>
+    <span class="tag">● บันทึกลง Google Sheet (Quote Log) ได้</span>
+    <a class="btn" href="https://phiistphisit-glitch.github.io/richmax-gravure-studio/">เปิด Gravure Studio</a>
+  </section>
+  <section class="card">
+    <div class="icon">📏</div>
+    <h2>แปลงหน่วยงานพิมพ์</h2>
+    <p>แปลงเมตร ฟุต แผ่น และกิโลกรัม ของฟิล์มม้วนและกระดาษแผ่น คำนวณทันทีที่พิมพ์</p>
+    <span class="tag">● บันทึกลง Google Sheet (Team Log) ได้</span>
+    <a class="btn" href="https://phiistphisit-glitch.github.io/richmax-print-unit-converter/">เปิดแอปแปลงหน่วย</a>
+  </section>
+</main>
+<footer>RICHMAX INTERPRINT CO., LTD. · PRINTING A BRIGHTER TOMORROW</footer>
+</body>
+</html>
